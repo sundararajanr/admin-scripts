@@ -1,5 +1,5 @@
 #!/bin/bash
-TOKEN=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
+TOKEN="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"
 ORG="sundararajanr"
 RESULTS_FILE="repo_list.txt"
 page=1
