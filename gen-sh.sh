@@ -1,4 +1,4 @@
-“#!/bin/bash
+#!/bin/bash
 TOKEN=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
 ORG="sundararajanr"
 RESULTS_FILE="repo_list.txt"
@@ -17,4 +17,4 @@ while [[ $page -le $total_pages ]]; do
     ((page++))
 done
 echo "$repo_list" > "$RESULTS_FILE"
-cat repo_list.txt”
+cat repo_list.txt
